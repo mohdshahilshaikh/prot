@@ -8,8 +8,8 @@ function sendEmail(){
     const bodyMessage = `Full Name: ${fullName.value}<br> Email: ${email.value}<br> Phone Number: ${phone.value}<br> Message: ${mess.value}<br>`;
     Email.send({
         SecureToken: "102e9de4-77c2-47b0-9f63-471711da50da",
-        To: 'shahilahmad81@gmail.com',
-        From: "shahilahmad81@gmail.com",
+        To: 'suhela401581@gmail.com',
+        From: "suhela401581@gmail.com",
         Subject: subject.value,
         Body: bodyMessage
     }).then(
